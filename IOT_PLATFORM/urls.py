@@ -11,3 +11,5 @@ router.register('sensor', views.SensorView)
 urlpatterns = [
     path('t3/', include(router.urls))
 ]
+
+#urls
